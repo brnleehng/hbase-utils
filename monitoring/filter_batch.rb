@@ -10,7 +10,7 @@ module Fluent
 
     BASE_DIR = File.dirname(File.expand_path('..', __FILE__))
     RUBY_DIR = BASE_DIR + '/ruby/bin/ruby '
-    SCRIPT = BASE_DIR + '/bin/hdinsightmanifestreader.rb '
+    SCRIPT = BASE_DIR + '/bin/batchmanifestreader.rb '
 
         attr_accessor :command
 

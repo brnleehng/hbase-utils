@@ -8,5 +8,5 @@ cluster_node=ENV['AZ_BATCH_NODE_ID']
 # if has_cluster_type.strip == "True"
 #    cluster_type = `sudo python -c "from hdinsight_common.AmbariHelper import AmbariHelper; print AmbariHelper().get_cluster_manifest().settings['cluster_type']"`
 # end
-results = '{"cluster_name":"'+ cluster_name.strip + '", "cluster_node":"'+ cluster_node.strip + '"}'
+results = '{"cluster_name":"'+ cluster_name + '", "cluster_node": "' + cluster_node + '"}'
 puts results
