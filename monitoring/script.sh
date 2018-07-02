@@ -10,5 +10,4 @@ sudo wget https://raw.githubusercontent.com/brnleehng/hbase-utils/feature/batch-
 sudo wget https://raw.githubusercontent.com/brnleehng/hbase-utils/feature/batch-oms/monitoring/hdinsightmanifestreader.rb -O  /opt/microsoft/omsagent/bin/hdinsightmanifestreader.rb
 sudo wget https://raw.githubusercontent.com/brnleehng/hbase-utils/feature/batch-oms/monitoring/omsagent
 sudo cp omsagent /etc/sudoers.d/
-sudo sh ~/.bashrc
 sudo service omsagent restart
