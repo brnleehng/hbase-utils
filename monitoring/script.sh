@@ -10,4 +10,5 @@ sudo wget https://raw.githubusercontent.com/brnleehng/hbase-utils/feature/batch-
 sudo wget https://raw.githubusercontent.com/brnleehng/hbase-utils/feature/batch-oms/monitoring/batchmanifestreader.rb -O  /opt/microsoft/omsagent/bin/batchmanifestreader.rb
 sudo wget https://raw.githubusercontent.com/brnleehng/hbase-utils/feature/batch-oms/monitoring/omsagent
 sudo cp omsagent /etc/sudoers.d/
+sudo sh -x /opt/microsoft/omsagent/bin/omsadmin.sh -w $1 -s $2
 sudo service omsagent restart
